@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - NITYAM WORK</title>
+  <meta name="description" content="Privacy Policy for NITYAM WORK (Daily Habit & Focus Suite), developed by APEX Vision Productivity. Learn how we collect, use, and protect your data.">
+  <meta name="author" content="APEX Vision Productivity">
+  <meta name="robots" content="index, follow">
+  <style>
+    :root {
+      --primary: #059669;
+      --primary-dark: #047857;
+      --primary-light: #10b981;
+      --primary-surface: #ecfdf5;
+      --secondary: #d97706;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --text-subtle: #64748b;
+      --bg-body: #f8fafc;
+      --bg-card: #ffffff;
+      --bg-alt: #f1f5f9;
+      --border-color: #e2e8f0;
+      --border-focus: #059669;
+      --badge-bg: #d1fae5;
+      --badge-text: #065f46;
+      --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+      --max-width: 900px;
+      --radius-sm: 6px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+      --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+      --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+      --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.03);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --primary: #10b981;
+        --primary-dark: #34d399;
+        --primary-light: #6ee7b7;
+        --primary-surface: #064e3b;
+        --secondary: #f59e0b;
+        --text-main: #f1f5f9;
+        --text-muted: #cbd5e1;
+        --text-subtle: #94a3b8;
+        --bg-body: #0b1117;
+        --bg-card: #151e28;
+        --bg-alt: #1c2734;
+        --border-color: #273546;
+        --badge-bg: #064e3b;
+        --badge-text: #a7f3d0;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--font-family);
+      background-color: var(--bg-body);
+      color: var(--text-main);
+      line-height: 1.65;
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+      padding-bottom: 60px;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      transition: color 0.2s ease;
+    }
+
+    a:hover, a:focus {
+      color: var(--primary-dark);
+    }
+
+    /* Container */
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* Header */
+    header {
+      background: var(--bg-card);
+      border-bottom: 1px solid var(--border-color);
+      padding: 36px 0 28px;
+      margin-bottom: 32px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .header-content {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .app-brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .brand-logo {
+      width: 44px;
+      height: 44px;
+      background: linear-gradient(135deg, #059669 0%, #10b981 100%);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: 900;
+      font-size: 20px;
+      box-shadow: 0 4px 10px rgba(5, 150, 105, 0.35);
+    }
+
+    .brand-title {
+      font-size: 26px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: var(--text-main);
+    }
+
+    .brand-subtitle {
+      font-size: 14px;
+      color: var(--text-subtle);
+      font-weight: 500;
+    }
+
+    .header-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 8px;
+    }
+
+    .meta-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--badge-bg);
+      color: var(--badge-text);
+      font-size: 13px;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: var(--radius-sm);
+    }
+
+    .meta-badge.neutral {
+      background: var(--bg-alt);
+      color: var(--text-muted);
+      border: 1px solid var(--border-color);
+    }
+
+    /* Navigation / TOC */
+    .toc-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin-bottom: 36px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .toc-title {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-main);
+    }
+
+    .toc-list {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 8px 16px;
+      list-style: none;
+    }
+
+    @media (min-width: 640px) {
+      .toc-list {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .toc-item a {
+      text-decoration: none;
+      color: var(--text-muted);
+      font-size: 14.5px;
+      display: block;
+      padding: 4px 0;
+      transition: color 0.15s ease, transform 0.15s ease;
+    }
+
+    .toc-item a:hover {
+      color: var(--primary);
+      transform: translateX(3px);
+    }
+
+    /* Policy Content */
+    article {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 36px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    @media (max-width: 640px) {
+      article {
+        padding: 20px;
+      }
+    }
+
+    section {
+      margin-bottom: 40px;
+      scroll-margin-top: 24px;
+    }
+
+    section:last-child {
+      margin-bottom: 0;
+    }
+
+    h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--text-main);
+      margin-bottom: 14px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--primary-surface);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    h3 {
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin: 18px 0 8px;
+    }
+
+    p {
+      color: var(--text-muted);
+      margin-bottom: 14px;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul, ol {
+      margin: 12px 0 16px 24px;
+      color: var(--text-muted);
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    li:last-child {
+      margin-bottom: 0;
+    }
+
+    strong {
+      color: var(--text-main);
+      font-weight: 600;
+    }
+
+    /* Highlight Box / Cards */
+    .callout {
+      background: var(--bg-alt);
+      border-left: 4px solid var(--primary);
+      padding: 16px 20px;
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      margin: 18px 0;
+    }
+
+    .callout.warning {
+      border-left-color: var(--secondary);
+      background: rgba(217, 119, 6, 0.08);
+    }
+
+    .callout p {
+      margin: 0;
+      font-size: 14.5px;
+    }
+
+    /* Data Table */
+    .table-container {
+      overflow-x: auto;
+      margin: 18px 0;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 14px;
+    }
+
+    th {
+      background: var(--bg-alt);
+      color: var(--text-main);
+      font-weight: 700;
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border-color);
+      color: var(--text-muted);
+      vertical-align: top;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 48px;
+      text-align: center;
+      padding: 24px 0;
+      color: var(--text-subtle);
+      font-size: 13.5px;
+      border-top: 1px solid var(--border-color);
+    }
+
+    .back-to-top {
+      display: inline-block;
+      margin-bottom: 16px;
+      font-size: 13.5px;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 6px 14px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+      color: var(--text-main);
+    }
+
+    .back-to-top:hover {
+      background: var(--bg-alt);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <div class="app-brand">
+          <div class="brand-logo">N</div>
+          <div>
+            <h1 class="brand-title">NITYAM WORK</h1>
+            <div class="brand-subtitle">Daily Habit &amp; Focus Suite | Developer: APEX Vision Productivity</div>
+          </div>
+        </div>
+        <div class="header-meta">
+          <span class="meta-badge">✓ Active Privacy Policy</span>
+          <span class="meta-badge neutral">Package: <code>com.nityam.work</code></span>
+          <span class="meta-badge neutral">Effective Date: October 27, 2026</span>
+          <span class="meta-badge neutral">Last Updated: October 27, 2026</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="container">
+
+    <!-- Table of Contents -->
+    <nav class="toc-card" aria-label="Table of Contents">
+      <h2 class="toc-title">Table of Contents</h2>
+      <ol class="toc-list">
+        <li class="toc-item"><a href="#section-1">1. Introduction &amp; Scope</a></li>
+        <li class="toc-item"><a href="#section-2">2. Developer &amp; Application Identity</a></li>
+        <li class="toc-item"><a href="#section-3">3. Information We Collect</a></li>
+        <li class="toc-item"><a href="#section-4">4. Information Users Provide Voluntarily</a></li>
+        <li class="toc-item"><a href="#section-5">5. Automatically Collected Device Information</a></li>
+        <li class="toc-item"><a href="#section-6">6. Device Permissions &amp; Purposes</a></li>
+        <li class="toc-item"><a href="#section-7">7. How We Use Collected Information</a></li>
+        <li class="toc-item"><a href="#section-8">8. Data Storage, Security &amp; Retention</a></li>
+        <li class="toc-item"><a href="#section-9">9. Third-Party Services &amp; SDKs</a></li>
+        <li class="toc-item"><a href="#section-10">10. Advertisements &amp; Advertising Partners</a></li>
+        <li class="toc-item"><a href="#section-11">11. Advertising Identifiers &amp; User Controls</a></li>
+        <li class="toc-item"><a href="#section-12">12. Third-Party Advertising Privacy Policies</a></li>
+        <li class="toc-item"><a href="#section-13">13. Data Sharing &amp; Disclosure</a></li>
+        <li class="toc-item"><a href="#section-14">14. Children's Privacy</a></li>
+        <li class="toc-item"><a href="#section-15">15. User Privacy Rights (GDPR &amp; CCPA/CPRA)</a></li>
+        <li class="toc-item"><a href="#section-16">16. Account &amp; Data Deletion Procedures</a></li>
+        <li class="toc-item"><a href="#section-17">17. Cookies &amp; Local Storage</a></li>
+        <li class="toc-item"><a href="#section-18">18. International Data Transfers</a></li>
+        <li class="toc-item"><a href="#section-19">19. Changes to this Privacy Policy</a></li>
+        <li class="toc-item"><a href="#section-20">20. Contact Information</a></li>
+        <li class="toc-item"><a href="#section-21">21. Verification &amp; Compliance Summary</a></li>
+      </ol>
+    </nav>
+
+    <!-- Policy Article Body -->
+    <article>
+
+      <!-- 1. Introduction and Scope -->
+      <section id="section-1">
+        <h2>1. Introduction &amp; Scope</h2>
+        <p>Welcome to <strong>NITYAM WORK</strong> (referred to herein as "we", "our", "us", or the "Application"). We are committed to protecting your personal privacy and providing transparent, clear information regarding how your data is collected, stored, processed, and safeguarded.</p>
+        <p>This Privacy Policy applies to the mobile application <strong>NITYAM WORK</strong>, distributed for Android devices via the Google Play Store under Application ID <code>com.nityam.work</code>. By installing, creating an account with, or using the Application, you understand and acknowledge the data collection and processing practices described in this document.</p>
+        <div class="callout">
+          <p><strong>Offline-First Paradigm:</strong> NITYAM WORK is engineered around an offline-first architecture. Your daily habits, streaks, focus timers, and personal reflection logs are stored locally on your device by default. Cloud synchronization and authentication are optional user-chosen capabilities.</p>
+        </div>
+      </section>
+
+      <!-- 2. Developer and Application Identification -->
+      <section id="section-2">
+        <h2>2. Developer &amp; Application Identity</h2>
+        <ul>
+          <li><strong>Application Name:</strong> NITYAM WORK (નિત્યમ વર્ક - Daily Habit &amp; Focus Suite)</li>
+          <li><strong>Developer / Publisher:</strong> APEX Vision Productivity</li>
+          <li><strong>Package Name / Application ID:</strong> <code>com.nityam.work</code></li>
+          <li><strong>Platform:</strong> Android (API Level 24+)</li>
+          <li><strong>Primary Contact Email:</strong> <a href="mailto:mahesh.akbari@gmail.com">mahesh.akbari@gmail.com</a></li>
+        </ul>
+      </section>
+
+      <!-- 3. Information Collected -->
+      <section id="section-3">
+        <h2>3. Information Collected by the Application</h2>
+        <p>NITYAM WORK collects information strictly necessary to provide habit building, routine planning, discipline tracking, and optional cloud backup features. Information collected falls into two primary categories:</p>
+        <ol>
+          <li><strong>User-Provided Information:</strong> Data you author, configure, or submit within the app.</li>
+          <li><strong>Automatically Collected Telemetry &amp; System State:</strong> Technical identifiers and device parameters required for app reliability, reminder scheduling, and ad delivery.</li>
+        </ol>
+      </section>
+
+      <!-- 4. Information Users Provide Voluntarily -->
+      <section id="section-4">
+        <h2>4. Information Users Provide Voluntarily</h2>
+        <ul>
+          <li><strong>Profile Data:</strong> Name, chosen display username, avatar emoji, personal bio or motto, user role (e.g., Student, Professional), and daily habit target goals.</li>
+          <li><strong>Authentication Credentials:</strong> Email address and hashed password when creating an email account, or verified identity tokens from Google Sign-In or Apple ID.</li>
+          <li><strong>Habit Definitions &amp; Logs:</strong> Habit names (e.g., "Morning Run", "Deep Work"), schedule frequencies, target quantities, custom tags, daily completion check-in times, streak records, and mood/reflection journal notes.</li>
+          <li><strong>Focus Timer Records:</strong> Duration of completed focus sessions (e.g., 25-minute Pomodoro intervals) and associated habit categories.</li>
+          <li><strong>User Support Correspondence:</strong> Feedback, bug reports, or support questions you send to our email address.</li>
+        </ol>
+      </section>
+
+      <!-- 5. Automatically Collected Information -->
+      <section id="section-5">
+        <h2>5. Automatically Collected Information &amp; Device Information</h2>
+        <p>When you use the Application, certain diagnostic and device parameters may be processed automatically to ensure operational stability:</p>
+        <ul>
+          <li><strong>Device Model &amp; Manufacturer:</strong> To adapt responsive UI layouts and verify hardware alarm compatibility.</li>
+          <li><strong>Operating System Version:</strong> Android OS version (e.g., Android 14/15/16) to determine available notification and exact alarm APIs.</li>
+          <li><strong>Network State:</strong> Whether an active Wi-Fi or cellular data connection exists, preventing battery drain from futile cloud synchronization attempts when offline.</li>
+          <li><strong>Session Timestamps:</strong> Local timestamps used to calculate habit streak continuity across time zones.</li>
+        </ul>
+      </section>
+
+      <!-- 6. Permissions and Purposes -->
+      <section id="section-6">
+        <h2>6. Permissions &amp; Their Purposes</h2>
+        <p>The Application requests only the minimal set of Android system permissions required to operate its features:</p>
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Permission</th>
+                <th>Classification</th>
+                <th>Explicit Purpose</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>android.permission.INTERNET</code></td>
+                <td>Normal / Install-Time</td>
+                <td>Enables optional cloud synchronization with Firebase Firestore, Firebase Authentication, Google Gemini AI habit coaching requests, and ad delivery.</td>
+              </tr>
+              <tr>
+                <td><code>android.permission.ACCESS_NETWORK_STATE</code></td>
+                <td>Normal / Install-Time</td>
+                <td>Allows checking whether the device is connected to the internet before initiating network operations.</td>
+              </tr>
+              <tr>
+                <td><code>android.permission.POST_NOTIFICATIONS</code></td>
+                <td>Runtime (Android 13+)</td>
+                <td>Allows the app to display scheduled habit reminders, streak alerts, morning briefs, and evening reflections requested by the user.</td>
+              </tr>
+              <tr>
+                <td><code>android.permission.SCHEDULE_EXACT_ALARM</code> &amp; <code>USE_EXACT_ALARM</code></td>
+                <td>Special / System</td>
+                <td>Allows precise triggering of user-configured habit reminder alarms and focus timer interval chimes.</td>
+              </tr>
+              <tr>
+                <td><code>android.permission.RECEIVE_BOOT_COMPLETED</code></td>
+                <td>Normal / Install-Time</td>
+                <td>Restores and reschedules your active daily habit alarms and notifications after your device restarts.</td>
+              </tr>
+              <tr>
+                <td><code>android.permission.VIBRATE</code></td>
+                <td>Normal / Install-Time</td>
+                <td>Provides tactile haptic feedback when completing a habit check-in or when a focus timer interval ends.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p><strong>Zero-Permission Storage:</strong> NITYAM WORK does not request broad media or external storage permissions (such as <code>READ_EXTERNAL_STORAGE</code> or <code>MANAGE_EXTERNAL_STORAGE</code>).</p>
+      </section>
+
+      <!-- 7. How Information is Used -->
+      <section id="section-7">
+        <h2>7. How We Use Collected Information</h2>
+        <ul>
+          <li><strong>Core Service Delivery:</strong> Tracking daily habit completions, computing streak counts, displaying completion calendars, and managing focus countdowns.</li>
+          <li><strong>Notifications:</strong> Triggering alarms and notification banners for user-scheduled routines.</li>
+          <li><strong>Authentication &amp; Security:</strong> Verifying user identity via email link verification, Google Sign-In, or Apple ID, and securing cloud-synced habit records against unauthorized access.</li>
+          <li><strong>AI Habit Coaching:</strong> Formulating personalized habit advice and streak tips through the Google Gemini API using aggregated, non-sensitive habit statistics (completion rates and category names).</li>
+          <li><strong>Advertising:</strong> Serving contextual and relevant advertisements to support free access to the app.</li>
+        </ul>
+      </section>
+
+      <!-- 8. Data Storage, Security and Retention -->
+      <section id="section-8">
+        <h2>8. Data Storage, Security &amp; Retention</h2>
+        <h3>Local Storage (Room SQLite Database)</h3>
+        <p>Your habit definitions, check-in history, reflection notes, and preferences are stored in a private SQLite database inside the app's sandboxed internal storage directory. Other applications on the device cannot read this database.</p>
+
+        <h3>Cloud Storage (Firebase Firestore)</h3>
+        <p>If you sign in, your data is synced with Google Cloud Firebase Firestore under strict user-scoped security rules. Data in transit is encrypted using Transport Layer Security (TLS 1.3), and data at rest is encrypted using AES-256 by Google Cloud infrastructure.</p>
+
+        <h3>Data Retention</h3>
+        <p>Your personal data is retained for as long as your account remains active or as needed to provide you with habit tracking history. If you delete your account or uninstall the app in guest mode, your data is erased as described in Section 16.</p>
+      </section>
+
+      <!-- 9. Third-Party Services and SDKs -->
+      <section id="section-9">
+        <h2>9. Third-Party Services &amp; SDKs</h2>
+        <p>NITYAM WORK integrates trusted industry SDKs to provide specific capabilities:</p>
+        <ul>
+          <li><strong>Firebase Authentication &amp; Google Sign-In (Google LLC):</strong> Authenticates user accounts and secures multi-device synchronization.</li>
+          <li><strong>Firebase Firestore (Google LLC):</strong> Cloud NoSQL database storing user-authorized habit backups.</li>
+          <li><strong>Google Gemini API / Firebase AI Logic (Google LLC):</strong> Generates contextual habit advice and productivity guidance.</li>
+          <li><strong>Jetpack Credential Manager (Google LLC):</strong> Android system identity service facilitating secure passkey and Google ID token exchange.</li>
+        </ul>
+      </section>
+
+      <!-- 10. Advertisements and Advertising Partners -->
+      <section id="section-10">
+        <h2>10. Advertisements &amp; Advertising Partners</h2>
+        <p>NITYAM WORK contains advertisements to fund development and provide free features to our users. Advertisements are served by third-party advertising networks, primarily <strong>Google AdMob / Google Mobile Ads</strong>.</p>
+        <p>These advertising partners may process technical data when an advertisement is requested or rendered in the Application:</p>
+        <ul>
+          <li><strong>Advertising Identifiers:</strong> Google Advertising ID (GAID) / Android Advertising ID.</li>
+          <li><strong>Device &amp; Hardware Attributes:</strong> Screen dimensions, carrier, device manufacturer, language settings, and IP address.</li>
+          <li><strong>Ad Interaction Data:</strong> Ad views, clicks, and impressions.</li>
+        </ul>
+        <div class="callout warning">
+          <p><strong>Advertising Provider Notice:</strong> Advertising services operate under their respective operators' privacy policies. APEX Vision Productivity does not have access to or control over third-party advertising cookies, web beacons, or tracking technologies utilized by ad networks.</p>
+        </div>
+      </section>
+
+      <!-- 11. Advertising Identifiers and Controls -->
+      <section id="section-11">
+        <h2>11. Advertising Identifiers &amp; User Privacy Controls</h2>
+        <p>On Android devices, you possess direct control over how advertising identifiers are used:</p>
+        <ul>
+          <li><strong>Resetting Your Advertising ID:</strong> You can reset your device's GAID at any time, unlinking prior ad history from future interactions. Open <code>Settings &gt; Google &gt; Ads &gt; Reset advertising ID</code>.</li>
+          <li><strong>Deleting Your Advertising ID:</strong> In modern Android versions (Android 12+), you can delete your GAID entirely by navigating to <code>Settings &gt; Google &gt; Ads &gt; Delete advertising ID</code>. When deleted, ad networks receive a string of zeros in place of an identifier.</li>
+          <li><strong>Personalized vs. Non-Personalized Ads:</strong> Depending on your jurisdiction (e.g., EEA, UK, California) and consent settings, you may receive non-personalized ads, which are served based on contextual app content rather than your browsing history across other apps.</li>
+          <li><strong>Google Ad Center:</strong> You can customize your Google advertising preferences online at <a href="https://myadcenter.google.com/" target="_blank" rel="noopener noreferrer">https://myadcenter.google.com/</a>.</li>
+        </ul>
+      </section>
+
+      <!-- 12. Third-Party Advertising Privacy Policies -->
+      <section id="section-12">
+        <h2>12. Third-Party Advertising Partners' Privacy Policies</h2>
+        <p>We encourage you to review the privacy documentation of third-party advertising and analytics providers:</p>
+        <ul>
+          <li><strong>Google &amp; Google AdMob Privacy Policy:</strong> <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a></li>
+          <li><strong>How Google Uses Information From Sites or Apps That Use Our Services:</strong> <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">https://policies.google.com/technologies/partner-sites</a></li>
+          <li><strong>Google Advertising Technologies:</strong> <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">https://policies.google.com/technologies/ads</a></li>
+          <li><strong>Apple Privacy Policy (for Apple ID authentication):</strong> <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">https://www.apple.com/legal/privacy/</a></li>
+        </ul>
+      </section>
+
+      <!-- 13. Data Sharing and Disclosure -->
+      <section id="section-13">
+        <h2>13. Data Sharing &amp; Disclosure</h2>
+        <p>We do <strong>not</strong> sell, rent, or trade your personal habit logs, streak records, journal entries, or profile details to any data brokers or commercial marketers. We disclose information only under the following limited circumstances:</p>
+        <ul>
+          <li><strong>Service Providers:</strong> Cloud infrastructure (Google Cloud/Firebase) hosting your synced data under strict confidentiality and data protection agreements.</li>
+          <li><strong>Advertising Partners:</strong> As described in Section 10, sharing technical device parameters and advertising IDs for ad serving.</li>
+          <li><strong>Legal Requirements:</strong> If compelled to do so by a valid court order, law enforcement request, or applicable law to protect life, safety, or legal rights.</li>
+          <li><strong>Business Transfers:</strong> In the event of a merger, acquisition, or sale of assets, user data would transition under the continued governance of this Privacy Policy.</li>
+        </ul>
+      </section>
+
+      <!-- 14. Children's Privacy -->
+      <section id="section-14">
+        <h2>14. Children's Privacy (COPPA &amp; GDPR-K)</h2>
+        <p>NITYAM WORK is designed for general audiences seeking habit tracking, focus timing, and discipline enhancement. The Application is <strong>not directed to children under the age of 13</strong> (or under 16 in the European Economic Area).</p>
+        <p>We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has submitted personal information to our servers without your consent, please contact us at <a href="mailto:mahesh.akbari@gmail.com">mahesh.akbari@gmail.com</a>. Upon verification, we will promptly delete such records from our databases.</p>
+      </section>
+
+      <!-- 15. User Privacy Rights -->
+      <section id="section-15">
+        <h2>15. User Privacy Rights (GDPR &amp; CCPA/CPRA)</h2>
+        <p>Depending on your geographic location, you may have specific statutory rights under data protection laws, such as the European General Data Protection Regulation (GDPR) and the California Consumer Privacy Act / California Privacy Rights Act (CCPA/CPRA):</p>
+        <ul>
+          <li><strong>Right of Access:</strong> You may request a copy of the personal information we hold about you.</li>
+          <li><strong>Right to Rectification:</strong> You can edit and update your name, email, avatar, and habit records directly inside the app's Settings screen.</li>
+          <li><strong>Right to Erasure ("Right to be Forgotten"):</strong> You have the right to permanently delete your account and all associated cloud data at any time.</li>
+          <li><strong>Right to Restrict or Object to Processing:</strong> You may opt out of cloud sync at any time by signing out and using the application exclusively in guest mode.</li>
+          <li><strong>Right to Non-Discrimination:</strong> We will never discriminate against you for exercising any of your statutory privacy rights.</li>
+        </ul>
+      </section>
+
+      <!-- 16. Account Deletion and Data Deletion Procedures -->
+      <section id="section-16">
+        <h2>16. Account Deletion &amp; Data Deletion Procedures</h2>
+        <p>In accordance with Google Play Store User Data Policy requirements, NITYAM WORK provides complete self-service data and account deletion pathways:</p>
+
+        <h3>Method 1: In-App Direct Account Deletion</h3>
+        <ol>
+          <li>Open NITYAM WORK on your Android device.</li>
+          <li>Navigate to the <strong>Settings</strong> tab.</li>
+          <li>Select <strong>Account</strong>, then tap <strong>Delete Account</strong>.</li>
+          <li>Review the warning prompt, type <code>DELETE</code> to confirm, and tap <strong>Permanently Delete Account</strong>.</li>
+        </ol>
+        <p>This immediately and permanently destroys your Firebase Authentication profile, removes your synced Firestore document, and wipes local Room database logs.</p>
+
+        <h3>Method 2: Email Data Deletion Request</h3>
+        <p>If you have uninstalled the application or cannot access your device, you may submit a formal data deletion request by emailing <a href="mailto:mahesh.akbari@gmail.com">mahesh.akbari@gmail.com</a> with the subject line <code>"Data Deletion Request - NITYAM WORK"</code>. Please provide your registered account email. We will process and permanently purge your records within thirty (30) days and confirm completion via email.</p>
+      </section>
+
+      <!-- 17. Cookies and Similar Technologies -->
+      <section id="section-17">
+        <h2>17. Cookies &amp; Local Storage</h2>
+        <p>The NITYAM WORK Android mobile app does not use browser cookies. For session management and local state preservation, it utilizes:</p>
+        <ul>
+          <li><strong>SQLite / Room Database:</strong> For storing habit logs, category preferences, and focus history.</li>
+          <li><strong>Android Encrypted Preferences / DataStore:</strong> For remembering theme settings (light/dark/system mode), language selection (English/Gujarati), and app lock PIN codes.</li>
+          <li><strong>Firebase Authentication Cache:</strong> Securely stored OAuth access and refresh tokens.</li>
+        </ul>
+      </section>
+
+      <!-- 18. International Data Transfers -->
+      <section id="section-18">
+        <h2>18. International Data Transfers</h2>
+        <p>Our cloud services are powered by Google Cloud Platform / Firebase. Your synced habit records may be stored and processed on servers located outside of your state, province, or country. Google Cloud complies with standard contractual clauses (SCCs) and robust international data protection frameworks to ensure an adequate level of data protection wherever data is processed.</p>
+      </section>
+
+      <!-- 19. Changes to this Privacy Policy -->
+      <section id="section-19">
+        <h2>19. Changes to this Privacy Policy</h2>
+        <p>We may periodically update this Privacy Policy to reflect enhancements in app functionality, regulatory modifications, or updates to third-party SDKs. When changes occur, we will update the <strong>"Last Updated"</strong> date at the top of this document.</p>
+        <p>For material changes, we will provide conspicuous notice through an in-app banner or notification prior to the change becoming effective. Your continued use of the Application following the publication of any modifications signifies your acceptance of the updated terms.</p>
+      </section>
+
+      <!-- 20. Contact Information -->
+      <section id="section-20">
+        <h2>20. Contact Information</h2>
+        <p>If you have any questions, inquiries, concerns, or data deletion requests regarding this Privacy Policy or our privacy practices, please contact us:</p>
+        <div class="callout">
+          <p><strong>Developer:</strong> APEX Vision Productivity</p>
+          <p><strong>Application:</strong> NITYAM WORK (<code>com.nityam.work</code>)</p>
+          <p><strong>Contact Email:</strong> <a href="mailto:mahesh.akbari@gmail.com">mahesh.akbari@gmail.com</a></p>
+          <p><strong>Response Time:</strong> We strive to address all privacy-related inquiries within 48 business hours.</p>
+        </div>
+      </section>
+
+      <!-- 21. Compliance Summary -->
+      <section id="section-21">
+        <h2>21. Compliance &amp; Disclosure Summary</h2>
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Requirement</th>
+                <th>Status</th>
+                <th>Implementation Details</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Google Play User Data Policy</strong></td>
+                <td>Compliant</td>
+                <td>Prominent in-app account deletion, minimal permissions, zero broad media permissions.</td>
+              </tr>
+              <tr>
+                <td><strong>Advertisements Disclosure</strong></td>
+                <td>Declared</td>
+                <td>Third-party ad networks (Google AdMob), advertising identifier controls, and opt-outs.</td>
+              </tr>
+              <tr>
+                <td><strong>AI / Machine Learning</strong></td>
+                <td>Declared</td>
+                <td>Google Gemini habit tips based only on aggregated habit completion stats.</td>
+              </tr>
+              <tr>
+                <td><strong>Child Protection (COPPA)</strong></td>
+                <td>Compliant</td>
+                <td>App is not directed to children under 13; no child data knowingly collected.</td>
+              </tr>
+              <tr>
+                <td><strong>Data Security</strong></td>
+                <td>Encrypted</td>
+                <td>Encrypted in transit (HTTPS/TLS 1.3) and encrypted at rest on Google Cloud.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+    </article>
+
+    <!-- Footer -->
+    <footer>
+      <a href="#section-1" class="back-to-top">↑ Back to Top</a>
+      <p>&copy; 2026 APEX Vision Productivity. All rights reserved.</p>
+      <p>NITYAM WORK (<code>com.nityam.work</code>) &bull; Contact: <a href="mailto:mahesh.akbari@gmail.com">mahesh.akbari@gmail.com</a></p>
+    </footer>
+
+  </main>
+
+</body>
+</html>
